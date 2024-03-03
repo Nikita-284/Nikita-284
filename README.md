@@ -11,3 +11,7 @@ Oh, and let's not forget my guilty pleasures – I'm a die-hard Bollywood fan �
 
 Feel free to reach out for a chat about data, dance, travel, fitness, or the latest binge-worthy TV shows. Let's connect and share some good vibes! ✨
 <h1 align="center"><img src="avatar_nikita.png" alt="avatar" height="400"></h1>
+
+### Let's connect!
+[![Connect via LinkedIn](https://img.shields.io/badge/Connect%20via-LinkedIn-blue?style=for-the-badge&logo=linkedin)]([https://www.linkedin.com/in/your-profile-url/](https://www.linkedin.com/in/nikita-gill-36a70a142/))
+[![Connect via Gmail](https://img.shields.io/badge/Connect%20via-Gmail-red?style=for-the-badge&logo=gmail)](mailto:gillnikita.284@gmail.com)
