@@ -11,8 +11,9 @@ git push origin nikita
 
 
 ****
-docker_compose down
-docker_compose up -d
+repo-> docker_compose up -d
+6050 - cluster
+9999 - postgress
 
 Partitioning
  1. Range
