@@ -11,6 +11,9 @@ git push origin nikita
 
 
 ****
+docker_compose down
+docker_compose up -d
+
 Partitioning
  1. Range
 DROP TABLE IF EXISTS temperatures, temps_2023;
