@@ -1,0 +1,43 @@
+create branch nikita in github
+terminal git clone 
+repo-> git checkout -b nikita 
+code .
+save changes 
+git status - red
+git add .
+git staus - green
+git commit -m "message"
+git push origin nikita
+
+
+****
+Partitioning
+ 1. Range
+DROP TABLE IF EXISTS temperatures, temps_2023;
+CREATE TABLE temperatures (
+    reading_date date PRIMARY KEY,
+    city VARCHAR(100),
+    temp DECIMAL
+) PARTITION BY RANGE (reading_date);
+
+CREATE TABLE temps_2023
+   PARTITION OF temperatures FOR VALUES FROM ('2023-01-01') TO ('2024-01-01');
+
+CREATE TABLE temps_default 
+   PARTITION OF temperatures DEFAULT;
+   
+INSERT INTO temperatures (reading_date, city, temp) VALUES ('2021-06-15', 'Tampa', 80);
+
+ 2. Hash
+PARTITION BY HASH (user_id);
+CREATE TABLE user_sessions_1 PARTITION OF user_sessions FOR VALUES WITH (MODULUS 3, REMAINDER 0);
+
+ 3. List
+PARTITION BY LIST (store_id);
+CREATE TABLE product_sales_store_1 PARTITION OF product_sales FOR VALUES IN (1);
+
+****
+SHARDING BD24 or repo
+
+
+
